@@ -6,7 +6,7 @@ import numpy as np
 import streamlit as st
 import cv2
 
-@st.cache(ttl=24*3600)
+@st.cache_data(ttl=24*3600)
 def dowload_model():
     DATA_DIR = os.path.join(os.getcwd(), 'data')
     MODELS_DIR = os.path.join(DATA_DIR, 'yolo')
