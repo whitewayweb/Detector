@@ -2,7 +2,7 @@
 import streamlit as st
 
 # Confit
-st.set_page_config(page_title="Comparison of Object Detection Models and Streamlit: YOLO, SSD, EfficientDet, RetinaNet, Faster R-CNN, CenterNet",
+st.set_page_config(page_title="Various Object Detection Models and Streamlit: YOLO, SSD, EfficientDet, RetinaNet, Faster R-CNN, CenterNet",
                    page_icon=':bar_chart:', layout='wide')
 
 # Title
