@@ -1,4 +1,5 @@
-opencv-python
+matplotlib
+opencv-python==4.5.4.60
 pip-chill
 streamlit
 tensorflow
