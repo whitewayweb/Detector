@@ -112,7 +112,7 @@ if uploaded_file is not None:
         color = (128, 255, 0)
         cv2.rectangle(img, (x, y), (x+w, y+h), color, 2)
         cv2.putText(img, f"{label}: {confidence:.2f}",
-                    (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, fontScale = 0.5, color = color, thickness = 2)
+                    (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, fontScale = 0.6, color = color, thickness = 2)
 
     # Show output image
     st.image(img, channels="BGR")
