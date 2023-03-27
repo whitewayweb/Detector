@@ -1,5 +1,6 @@
 matplotlib
 opencv-python==4.5.4.60
 pip-chill
+python==3.9
 streamlit
 tensorflow
