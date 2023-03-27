@@ -21,6 +21,7 @@ st.write(
     """
 )
 
+st.subheader('COMING SOON!')
 st.subheader('SSD (Single Shot Detector)')
 st.write(
     """
