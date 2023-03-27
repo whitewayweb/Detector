@@ -24,9 +24,10 @@ def dowload_model():
     PATH_TO_CONFIG = os.path.join(MODELS_DIR, MODEL_CONFIG_FILENAME)
     if not os.path.exists(PATH_TO_WEIGHTS):
         print('Downloading model. This may take a while... ', end='')
-        st.write('Downloading model. This may take a while... ', end='')
+        st.write('Downloading model. This may take a while... ')
         urllib.request.urlretrieve(MODEL_DOWNLOAD_LINK, PATH_TO_WEIGHTS)
         print('Done')
+        st.write('Download completed ... ')
 
 
 def load_model():
