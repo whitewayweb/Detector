@@ -116,3 +116,11 @@ if uploaded_file is not None:
 
     # Show output image
     st.image(img, channels="BGR")
+
+
+
+st.write('Sample Image:')
+st.image('data/images/1.png', channels="BGR")
+
+st.write('Objects Detected:')
+st.image('data/images/d1.png', channels="BGR")
