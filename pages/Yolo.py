@@ -109,10 +109,10 @@ if uploaded_file is not None:
         x, y, w, h = boxes[i]
         label = classes[class_ids[i]]
         confidence = confidences[i]
-        color = (255, 0, 0)
+        color = (128, 255, 0)
         cv2.rectangle(img, (x, y), (x+w, y+h), color, 2)
         cv2.putText(img, f"{label}: {confidence:.2f}",
-                    (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
+                    (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, fontScale = 0.7, color = color, thickness = 2)
 
     # Show output image
     st.image(img, channels="BGR")
